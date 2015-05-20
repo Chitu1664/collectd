@@ -1,7 +1,7 @@
 Hostname "{{ HOST_NAME | default("collectd-docker") }}"
 
 FQDNLookup false
-Interval 10
+Interval 30
 Timeout 2
 ReadThreads 5
 

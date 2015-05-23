@@ -4,7 +4,7 @@
   <a href="https://github.com/revett/collectd-docker/releases" target="_blank"><img 
 </p>
 
-Simple [CollectD](https://github.com/collectd/collectd) instance running within a [Docker](https://github.com/docker/docker) container, with support to send statistics to either [Graphite](https://github.com/graphite-project), [Riemann](http://riemann.io/) or [InfluxDB](https://github.com/influxdb/influxdb).
+Simple [CollectD](https://github.com/collectd/collectd) instance running within a [Docker](https://github.com/docker/docker) container, with support to send statistics to  [Graphite](https://github.com/graphite-project).
 
 **Note** - also accepts traffic from [StatsD](https://github.com/etsy/statsd/) clients on `localhost:8125`.
 

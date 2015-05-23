@@ -16,7 +16,7 @@ Simple [CollectD](https://github.com/collectd/collectd) instance running within 
 2. Pull the latest image from the Docker [registry](https://registry.hub.docker.com/u/revett/collectd/):
 
 ```
-docker pull revett/collectd
+docker pull akumar261089/collectd
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ docker pull revett/collectd
 Start the container:
 
 ```
-docker run -d -e CONFIG_TYPE=influxdb -e EP_HOST=example.com -e EP_PORT=2003 revett/collectd
+docker run -d -e CONFIG_TYPE=influxdb -e EP_HOST=example.com -e EP_PORT=2003 akumar261089/collectd
 ```
 
 ### Environment Variables
@@ -34,7 +34,7 @@ You **must** replace the required environment variables within the `docker run` 
 **Required**:
 
 * `CONFIG_TYPE`
-  - Either: `graphite`, `riemann` or `influxdb`
+  - graphite
 * `EP_HOST`
   - IP or hostname for the endpoint.
 * `EP_PORT`

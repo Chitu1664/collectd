@@ -22,7 +22,7 @@ docker pull akumar261089/collectd
 Start the container:
 
 ```
-docker run -d -e CONFIG_TYPE=influxdb -e EP_HOST=example.com -e EP_PORT=2003 akumar261089/collectd
+docker run -d  -e EP_HOST=example.com -e EP_PORT=2003 akumar261089/collectd
 ```
 
 ### Environment Variables
@@ -31,8 +31,6 @@ You **must** replace the required environment variables within the `docker run` 
 
 **Required**:
 
-* `CONFIG_TYPE`
-  - graphite
 * `EP_HOST`
   - IP or hostname for the endpoint.
 * `EP_PORT`
